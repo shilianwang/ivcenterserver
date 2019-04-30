@@ -1,0 +1,40 @@
+{
+    "name": "DailyReport",
+    "fields": [
+        {
+            "fieldName": "reportDate",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "startTime",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "endTime",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "content",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "otherEntityName": "employee",
+            "otherEntityRelationshipName": "dailyReport",
+            "relationshipName": "reporter",
+            "otherEntityField": "id",
+            "ownerSide": true
+        }
+    ],
+    "changelogDate": "20190430051231",
+    "entityTableName": "daily_report",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

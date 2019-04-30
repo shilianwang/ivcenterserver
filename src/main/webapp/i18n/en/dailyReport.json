@@ -1,0 +1,25 @@
+{
+  "ivcenterserverApp": {
+    "dailyReport": {
+      "home": {
+        "title": "Daily Reports",
+        "createLabel": "Create a new Daily Report",
+        "createOrEditLabel": "Create or edit a Daily Report"
+      },
+      "created": "A new Daily Report is created with identifier {{ param }}",
+      "updated": "A Daily Report is updated with identifier {{ param }}",
+      "deleted": "A Daily Report is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Daily Report {{ id }}?"
+      },
+      "detail": {
+        "title": "Daily Report"
+      },
+      "reportDate": "Report Date",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "content": "Content",
+      "reporter": "Reporter"
+    }
+  }
+}

@@ -40,6 +40,19 @@ public class CacheConfiguration {
             cm.createCache(cn.ivisionchina.ivcenterserver.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(cn.ivisionchina.ivcenterserver.domain.PersistentToken.class.getName(), jcacheConfiguration);
             cm.createCache(cn.ivisionchina.ivcenterserver.domain.User.class.getName() + ".persistentTokens", jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Region.class.getName(), jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.DailyReport.class.getName(), jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Country.class.getName(), jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Location.class.getName(), jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Department.class.getName(), jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Department.class.getName() + ".employees", jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Task.class.getName(), jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Task.class.getName() + ".jobs", jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Employee.class.getName(), jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Employee.class.getName() + ".jobs", jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Job.class.getName(), jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.Job.class.getName() + ".tasks", jcacheConfiguration);
+            cm.createCache(cn.ivisionchina.ivcenterserver.domain.JobHistory.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

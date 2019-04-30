@@ -1,0 +1,25 @@
+{
+  "ivcenterserverApp": {
+    "dailyReport": {
+      "home": {
+        "title": "Daily Reports",
+        "createLabel": "创建新 Daily Report",
+        "createOrEditLabel": "创建或编辑 Daily Report"
+      },
+      "created": "Daily Report {{ param }} 创建成功",
+      "updated": "Daily Report {{ param }} 更新成功",
+      "deleted": "Daily Report {{ param }} 删除成功",
+      "delete": {
+        "question": "你确定要删除 Daily Report {{ id }} 吗？"
+      },
+      "detail": {
+        "title": "Daily Report"
+      },
+      "reportDate": "Report Date",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "content": "Content",
+      "reporter": "Reporter"
+    }
+  }
+}
